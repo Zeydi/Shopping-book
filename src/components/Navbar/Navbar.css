@@ -1,0 +1,16 @@
+.total[data-count]::after {
+  top: 3px;
+  position: absolute;
+  content: attr(data-count);
+  font-size: 60%;
+  padding: 0.6em;
+  border-radius: 999px;
+  line-height: 0.75em;
+  color: black;
+  color: black;
+  text-align: center;
+  min-width: 2em;
+  font-weight: bold;
+  background: white;
+  border-style: solid;
+}

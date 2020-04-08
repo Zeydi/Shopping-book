@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Book component renders correctly 1`] = `
+<div
+  className="card cover"
+>
+  <div>
+    <div
+      className="card-image"
+    >
+      <img />
+    </div>
+    <div
+      className="card-content"
+    >
+      <span
+        className="card-title "
+      />
+      <p>
+        <b>
+          Price: 
+          $
+        </b>
+      </p>
+      <div
+        className="card-action link"
+      >
+        <span
+          id="toggle"
+          onClick={[Function]}
+        >
+          Show resume
+        </span>
+      </div>
+      <span
+        className="btn-floating halfway-fab waves-effect waves-light red"
+        onClick={[Function]}
+        to="/"
+      >
+        <i
+          className="material-icons"
+        >
+          add
+        </i>
+      </span>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,15 @@
+import React from "react";
+import { MemoryRouter } from "react-router-dom";
+import { Link } from "react-router";
+import { mount } from "enzyme";
+
+import { Navbar } from "./Navbar";
+
+it("includes link to Mission scene", function() {
+  const wrapper = mount(
+    <MemoryRouter>
+      <Navbar />
+    </MemoryRouter>
+  );
+  expect(wrapper.find(Link).prop("to")).to.be.equal("/cart");
+});

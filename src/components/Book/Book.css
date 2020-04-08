@@ -1,0 +1,12 @@
+.info {
+  font-size: 15px;
+  padding: 5px;
+  text-align: justify;
+}
+.card-title {
+  height: 120px;
+}
+.link {
+  margin-top: 40px;
+  cursor: pointer;
+}

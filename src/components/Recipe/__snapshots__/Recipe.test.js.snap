@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipe Component renders correctly 1`] = `
+<div
+  className="container"
+>
+  <div
+    className="collection"
+  >
+    <li
+      className="collection-item"
+    >
+      <b>
+        Total: 
+        10
+         $
+      </b>
+    </li>
+    <li
+      className="collection-item"
+    >
+      <b>
+        Discount: 
+        5
+         $
+      </b>
+    </li>
+    <li
+      className="collection-item"
+    >
+      <b>
+        To pay: 
+        5
+         $
+      </b>
+    </li>
+  </div>
+</div>
+`;
